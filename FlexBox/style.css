@@ -1,0 +1,55 @@
+#navbar {
+    border-radius: 78pt;
+    border: 1px solid black;
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+    align-items: center;
+    background-color: rgb(238, 236, 201);
+}
+
+#logo{
+width: 30px;
+height: 30px;
+}
+
+button{
+margin: 4px;
+
+}
+#button1{
+/* flex-grow: 1; */
+border-radius: 16pt;
+width: 107px;
+height: 45px;
+background-color: rgb(225, 196, 8);
+color: brown;
+font-weight: bold;
+}
+
+#button2{
+    flex-grow: 2;
+    border-radius: 16pt;
+    width: 107px;
+    height: 55px;
+    background-color: rgb(225, 196, 8);
+    color: brown;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.product_card {
+    width: 264px;
+    height: 374px;
+    border-radius: 68pt;
+    background-color: lightgoldenrodyellow;
+    color: saddlebrown;
+}
