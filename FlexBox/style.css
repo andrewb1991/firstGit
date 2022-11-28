@@ -20,7 +20,7 @@ margin: 4px;
 
 }
 #button1{
-/* flex-grow: 1; */
+flex-grow: 1;
 border-radius: 16pt;
 width: 107px;
 height: 45px;
@@ -29,7 +29,7 @@ color: brown;
 font-weight: bold;
 }
 
-#button2{
+#button1:nth-of-type(3){
     flex-grow: 2;
     border-radius: 16pt;
     width: 107px;
