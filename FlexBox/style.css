@@ -1,3 +1,10 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+width: 100%;
+margin:10%;
+}
+
+
 #navbar {
     border-radius: 78pt;
     border: 1px solid black;
@@ -27,6 +34,7 @@ height: 45px;
 background-color: rgb(225, 196, 8);
 color: brown;
 font-weight: bold;
+font-size: 10pt;
 }
 
 #button1:nth-of-type(3){
@@ -47,9 +55,42 @@ button:hover{
 }
 
 .product_card {
+    display: flex;
+    flex-direction: column;
     width: 264px;
     height: 374px;
     border-radius: 68pt;
     background-color: lightgoldenrodyellow;
     color: saddlebrown;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_product{
+    width: 264px;
+    height: 231px;
+    border-radius: 52pt 52pt 0pt 0pt;
+}
+
+
+.flex_art{
+    background-color: rgb(238, 236, 201);
+    height: 100%;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.img_art{
+    margin: 4%;
+    width: 20em;
+    flex-grow: 0;
+}
+
+.article{
+    color: saddlebrown;
+    margin: 4%;
+    flex-grow: 1;
 }

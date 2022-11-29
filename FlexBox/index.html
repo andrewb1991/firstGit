@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <title>Flexbox</title>
 </head>
+
 <body>
     <!-- navigation bar -->
 
     <div id="navbar">
         <button id="button1">Our Honey</button>
         <button id="button1">Trace Honey</button>
-            <button id="button1"><img id="logo" src="W1-P2-Esercizi-Flex-Assets/logo.png" alt="logo">SHOP</button>    
+        <button id="button1"><img id="logo" src="W1-P2-Esercizi-Flex-Assets/logo.png" alt="logo">SHOP</button>
         <button id="button1">Facilities</button>
         <button id="button1">Contacts</button>
     </div>
     <!-- fine navigation bar -->
-<hr>
-<hr>
-<hr>
+    <hr>
+    <hr>
+    <hr>
     <!-- inizio product card -->
     <div class="product_card">
-        <div>
-<img src="W1-P2-Esercizi-Flex-Assets/honey.jpg" alt="">
+        <img class="img_product" src="W1-P2-Esercizi-Flex-Assets/honey.jpg" alt="">
+        <div style="text-align: center">
+            <span>100% Bio Honey</span>
+            <span>Italian, not treated</span>
+            <span>7$/Kg</span>
         </div>
-        <div>
-
+        <div><button id="button1">Add to cart</button>
         </div>
-        <button>Add to cart</button>
     </div>
+    <!-- fine product card -->
+    <hr>
+    <hr>
+    <hr>
+    <!-- inizio flexible article -->
+    <div class="flex_art container-md row">
+        <img class="img_art col-md-6 col-sm-6 " src="W1-P2-Esercizi-Flex-Assets/honey.jpg" alt="">
+        <div class="article col-md-6 col-sm-6">
+            <h3>Our delicious Honey</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati voluptatem harum earum
+                consectetur expedita sit aperiam amet neque at vero dolore, suscipit libero minus. Perferendis
+                reprehenderit voluptates dignissimos debitis!</p>
+        </div>
+    </div>
+
+    
 </body>
+
 </html>
